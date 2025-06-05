@@ -30,7 +30,7 @@ ShowRssButtonInSectionTermList = true
 [params.homeInfoParams]
 Title = "Hi, I'm Jacob"
 Content = '''
-I'm a software developer, hobbyist game developer (I like to tell myself), and professional bug squasher.
+I'm a software developer, hobbyist game developer, and professional bug squasher.
 I graduated from Colorado State University in December 2024 with a B.S. in Computer Science.
 '''
 
