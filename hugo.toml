@@ -1,0 +1,60 @@
+baseURL = 'https://notskm.github.io/'
+languageCode = 'en-us'
+title = 'Jacob Stearns'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+
+[cover]
+responsiveImages = true
+
+[params]
+disableSpecial1stPost = true
+ShowBreadCrumbs = true
+mainSections = ["projects", "posts"]
+ShowReadingTime = true
+ShowCodeCopyButtons = true
+showToc = true
+tocOpen = false
+ShowPostNavLinks = true
+ShowRssButtonInSectionTermList = true
+
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
+
+[params.homeInfoParams]
+Title = "Hi, I'm Jacob"
+Content = '''
+I'm a software developer, hobbyist game developer (I like to tell myself), and professional bug squasher.
+I graduated from Colorado State University in December 2024 with a B.S. in Computer Science.
+'''
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/notskm"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/j-stearns"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto://Jacob.Stearns24+website@alumni.colostate.edu"
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 10
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 20
+
